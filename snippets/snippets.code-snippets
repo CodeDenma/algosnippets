@@ -1,0 +1,60 @@
+{
+  "define list swap": {
+    "prefix": "swap",
+    "body": [
+      "def swap(data, i, j):",
+      "\tdata[i], data[j] = data[j], data[i]",
+      "$0",
+    ],
+  },
+  "function definition": {
+    "prefix": "d",
+    "body": [
+      "def $1($2):",
+      "\t$0",
+      "\tpass",
+    ],
+  },
+  "LeetCode Print": {
+    "prefix": "lcp",
+    "body": [
+      // "print(Solution$1(Solution, $0))",
+      "print(Solution()$1($0))",
+    ],
+  },
+  "Print": {
+    "prefix": "p",
+    "body": [
+      "print($0)",
+    ],
+  },
+  "Complexity Analysis": {
+    "prefix": "c",
+    "body": [
+      "# Time: O($1) | Space: O($2)",
+    ],
+  },
+  "Length": {
+    "prefix": "l",
+    "body": [
+      "len($0)",
+    ],
+  },
+  "Range": {
+    "prefix": "r",
+    "body": [
+      "range($0)",
+    ],
+  },
+  "LeetCode Import": {
+    "prefix": "lci",
+    "body": [
+      "from typing import Optional, List",
+      "import collections, itertools, functools, math, string, random, bisect, re, operator, heapq, queue",
+      "from queue import PriorityQueue",
+      "from itertools import combinations, permutations",
+      "from functools import lru_cache",
+      "from collections import defaultdict, OrderedDict, deque, Counter",
+    ]
+  }
+}
