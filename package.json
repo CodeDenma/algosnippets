@@ -1,6 +1,7 @@
 {
   "name": "algosnippets",
   "displayName": "AlgoSnippets",
+  "publisher": "CodeDenma",
   "description": "Convenient snippets for solving data structure & algorithm problems in VS Code",
   "version": "0.0.1",
   "engines": {
@@ -13,7 +14,11 @@
     "snippets": [
       {
         "language": "python",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/python3.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.code-snippets"
       }
     ]
   }

@@ -17,7 +17,7 @@ problems. To name a few...
 For example if there is an image subfolder under your extension project
 workspace:
 
-![Demo](images/demo.gif)
+![Demo](https://media.giphy.com/media/6pz6flDf5xy7QGxphC/giphy.gif)
 
 ## Known Issues
 
