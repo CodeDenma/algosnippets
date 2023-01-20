@@ -35,3 +35,7 @@ Initial release
 ### 1.1.0
 
 JavaScript Support Added
+
+### 1.1.1
+Changed the Complexity Analysis snippet from 'c' to 'com'
+Added import of bisect_left, bisect_right for Python 'lci'

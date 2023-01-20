@@ -35,7 +35,7 @@
     ]
   },
   "Complexity Analysis": {
-    "prefix": "c",
+    "prefix": "com",
     "body": [
       "# O($1) Time | O($2) Space",
     ],
@@ -61,6 +61,7 @@
       "from itertools import combinations, permutations",
       "from functools import lru_cache",
       "from collections import defaultdict, OrderedDict, deque, Counter",
+      "from bisect import bisect_left, bisect_right"
     ]
   },
   "Inspect": {
